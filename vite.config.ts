@@ -2,6 +2,8 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  // Served from https://wgm51.github.io/language_flashcard/ on GitHub Pages.
+  base: '/language_flashcard/',
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',

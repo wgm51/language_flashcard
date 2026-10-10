@@ -3,7 +3,19 @@ A language flashcard app that requires minimum interation with the screen.
 
 See [REQUIREMENTS.md](REQUIREMENTS.md) for the full requirements. The starter Spanish word list is in [`data/es/strommen-1000.tsv`](data/es/strommen-1000.tsv).
 
-## Running the app
+## Use it
+
+Open **https://wgm51.github.io/language_flashcard/**. It works offline after the
+first visit. Your progress is stored only on that device.
+
+To get an app icon on your phone:
+- **iPhone (Safari):** Share → Add to Home Screen.
+- **Android (Chrome):** ⋮ menu → Install app (or Add to Home screen).
+
+The site is rebuilt and published automatically every time `main` changes
+(see `.github/workflows/deploy.yml`).
+
+## Running it locally
 
 Requires Node 20+.
 
